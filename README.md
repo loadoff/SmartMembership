@@ -1,6 +1,6 @@
 # SmartMembership
 
-# 開発指針
+# 開発指針(クライアントサイド)
 
 ## アトミックデザインについて
 
@@ -49,15 +49,15 @@ In the project directory, you can run:
 
 WindowsOS での開発環境実行コマンド
 
-[http://localhost:12345](http://localhost:12345) がデフォルトブラウザで開きます。
+[http://localhost:54321](http://localhost:54321) がデフォルトブラウザで開きます。
 
 エディターでコードを更新すると自動でリロードされます。
 
 Lint のエラーはコンソール上に表示されます。
 
-### `yarn start:linux`
+### `yarn start:mac`
 
-Linux 等での開発環境実行コマンド
+MacOS 等での開発環境実行コマンド
 
 ### `yarn test`
 
@@ -93,3 +93,5 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+# 開発指針(サーバーサイド)
