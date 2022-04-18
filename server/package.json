@@ -1,0 +1,13 @@
+{
+  "name": "SmartMemershipServer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "sls": "sls"
+  },
+  "devDependencies": {
+    "serverless": "^3.14.0",
+    "serverless-domain-manager": "^6.0.3"
+  }
+}

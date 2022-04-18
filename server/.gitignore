@@ -1,0 +1,5 @@
+
+.*.swp
+.serverless
+dev.yml
+node_modules

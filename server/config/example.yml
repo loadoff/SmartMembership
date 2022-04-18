@@ -1,0 +1,10 @@
+corsOrigin:
+customDomain:
+  apiType: rest
+  basePath: api/v1
+  hostsZoneId:
+  domainName:
+  createRoute53Record: true
+  endpointType: 'regional'
+  securityPolicy: tls_1_2
+  autoDomain: false
