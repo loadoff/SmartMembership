@@ -1,14 +1,37 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400;700&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
 body {
+  box-sizing: border-box;
+  min-width: 100%;
+  min-height: 100vh;
   margin: 0;
-  font-family: "Noto Serif JP", "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN",
-    "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-family: 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN',
+    'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #0a0719;
+  font-size: 16px;
+  font-feature-settings: 'palt';
+  letter-spacing: 1.3px;
+  line-height: 1.85;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+button,
+input,
+select {
+  font-family: 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN',
+    'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #0a0719;
+  font-size: 12px;
+  font-feature-settings: 'palt';
+  letter-spacing: 1.3px;
+  line-height: 1.85;
 }
